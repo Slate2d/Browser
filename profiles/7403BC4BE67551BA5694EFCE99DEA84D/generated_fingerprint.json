@@ -1,0 +1,35 @@
+{
+  "navigator": {
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "platform": "Win32",
+    "language": "en-US",
+    "languages": [
+      "en-US"
+    ],
+    "hardwareConcurrency": 4,
+    "deviceMemory": 8,
+    "vendor": "Google Inc."
+  },
+  "headers": {
+    "sec-ch-ua": "\"Not;A=Brand\";v=\"99\", \"Google Chrome\";v=\"139\", \"Chromium\";v=\"139\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Upgrade-Insecure-Requests": "1",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+    "Sec-Fetch-Site": "?1",
+    "Sec-Fetch-Mode": "same-site",
+    "Sec-Fetch-User": "document",
+    "Sec-Fetch-Dest": "navigate",
+    "Accept-Encoding": "gzip, deflate, br, zstd",
+    "Accept-Language": "en-US;q=1.0"
+  },
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "sec_ch_ua": "\"Not;A=Brand\";v=\"99\", \"Google Chrome\";v=\"139\", \"Chromium\";v=\"139\"",
+  "screen": {
+    "width": 1366,
+    "height": 768,
+    "colorDepth": 24,
+    "pixelDepth": 24
+  }
+}

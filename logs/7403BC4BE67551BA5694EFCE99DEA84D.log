@@ -1,0 +1,10 @@
+2025-09-17 20:59:51,571 [INFO] worker: ENGINE selected: patchright
+2025-09-17 20:59:51,660 [ERROR] worker: resolve_timezone_via_proxy failed
+Traceback (most recent call last):
+  File "D:\SOFTS\AntiServer\worker.py", line 126, in run_worker
+    tz = await resolve_timezone_via_proxy(server, creds)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\SOFTS\AntiServer\utils.py", line 62, in resolve_timezone_via_proxy
+    async with httpx.AsyncClient(proxies=proxy_url, timeout=timeout, verify=False) as client:
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: AsyncClient.__init__() got an unexpected keyword argument 'proxies'

@@ -1,0 +1,28 @@
+2025-09-17 19:42:24,501 [INFO] worker: ENGINE selected: patchright
+node:events:496
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at PipeTransport.send (D:\SOFTS\AntiServer\.venv\Lib\site-packages\patchright\driver\package\lib\server\utils\pipeTransport.js:52:21)
+    at dispatcherConnection.onmessage (D:\SOFTS\AntiServer\.venv\Lib\site-packages\patchright\driver\package\lib\cli\driver.js:60:59)
+    at DispatcherConnection.sendCreate (D:\SOFTS\AntiServer\.venv\Lib\site-packages\patchright\driver\package\lib\server\dispatchers\dispatcher.js:185:10)
+    at new Dispatcher (D:\SOFTS\AntiServer\.venv\Lib\site-packages\patchright\driver\package\lib\server\dispatchers\dispatcher.js:69:23)
+    at new RequestDispatcher (D:\SOFTS\AntiServer\.venv\Lib\site-packages\patchright\driver\package\lib\server\dispatchers\networkDispatchers.js:47:5)
+    at RequestDispatcher.from (D:\SOFTS\AntiServer\.venv\Lib\site-packages\patchright\driver\package\lib\server\dispatchers\networkDispatchers.js:36:22)
+Emitted 'error' event on Socket instance at:
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at runNextTicks (node:internal/process/task_queues:69:3)
+    at process.processImmediate (node:internal/timers:453:9) {
+  errno: -4047,
+  syscall: 'write',
+  code: 'EPIPE'
+}
+
+Node.js v22.18.0

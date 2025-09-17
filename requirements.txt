@@ -6,4 +6,3 @@ psutil==5.9.8
 websockets==12.0
 # Prefer 'patchright' if you use it; the worker will fallback to 'playwright' if patchright is unavailable.
 playwright==1.47.0
-patchright
